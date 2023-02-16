@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+
+            width: 16%;
+            height: 70px;
+            text-decoration: none;
+            font-size: 27px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #926df1;
+            color: white;
+
+        }
+        body{
+            background-image: url('mtl_wall1.jpeg');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .user{
+            margin: auto;
+            margin-top: 35px;
+            width: 280px;
+            height:350px;
+
+            padding: 15px;
+            border: 1px solid #926df1;
+
+
+
+            color: #2a0257;
+            background-color: #ded4ec;
+
+
+
+        }
+        .user label{
+            text-align: left;
+            font-size:20px;
+        }
+        input[type=text], input[type=password] {
+            text-align: left;
+            width: 100%;
+            padding: 10px 20px;
+
+
+            border: 1px solid;
+            box-sizing: border-box;
+        }
+
+        input[type=button] {
+            background-color: #390672;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            font-size:20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button:hover {
+            opacity: 0.4;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Projects.html">Projects</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Social.html">Social</a>
+    <a class="active"  href="Admin.html">Admin</a>
+</div>
+
+<div class="user">
+    <h1> Subscribe</h1>
+    <form>
+        <label for="Name">Username </label><br>
+        <input type="text" id="Name" name="fName" placeholder=" Enter your first name & last name"><br>
+        <label for="email">Password </label><br>
+        <input type="text" id="email" name="eml" placeholder=" Enter your Password">
+        <br><br><br><br>
+
+
+        <input type="button" name="sign" value="Subscribe">
+    </form>
+</div>
+
+
+</body>
+</html>
